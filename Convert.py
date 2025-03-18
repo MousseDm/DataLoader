@@ -44,6 +44,6 @@ class Convert(Dataset):
             cv2.imwrite(str(mask_png_path), mask_resized)
 
             img_jpg_path = self.img_target_folder / f"{img_id}.jpg"
-            cv2.imwrite(str(img_jpg_path), img_resized
+            cv2.imwrite(str(img_jpg_path), img_resized)
 
 
